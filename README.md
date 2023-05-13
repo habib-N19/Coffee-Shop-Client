@@ -1,7 +1,6 @@
 # Coffee-Shop-Client
 A repo of coffee-shop from module 68
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/Your-Netlify-Site-Status-Code-Here/badge.svg)](https://app.netlify.com/sites/Your-Netlify-Site-Name-Here/deploys)
 
 [Visit the Deployed Site](https://boisterous-sunshine-5bc078.netlify.app)
 
