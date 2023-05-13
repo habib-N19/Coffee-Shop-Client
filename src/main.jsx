@@ -10,7 +10,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App></App>,
-    loader: () => fetch('http://localhost:5000/coffee')
+    loader: () => fetch('https://coffee-shop-server-inky.vercel.app/coffee')
   },
   {
     path: 'addCoffee',
@@ -19,7 +19,8 @@ const router = createBrowserRouter([
   {
     path: 'updateCoffee/:id',
     element: <UpdateCoffee></UpdateCoffee>,
-    loader: ({ params }) => fetch(`http://localhost:5000/coffee/${params.id}`)
+    loader: ({ params }) =>
+      fetch(`https://coffee-shop-server-inky.vercel.app/coffee/${params.id}`)
   }
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(
